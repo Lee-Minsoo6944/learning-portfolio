@@ -1,0 +1,124 @@
+/* 기본 설정 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 40px 20px;
+}
+
+/* 전체 컨테이너 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* 헤더 (제목) */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+h1 {
+    color: #2b6cb0;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #718096;
+    font-size: 1.1em;
+}
+
+/* 카드 섹션 (학습 목표, STAR) */
+.card {
+    background-color: #f8fafc;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #3182ce;
+}
+
+h2 {
+    color: #2d3748;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+/* STAR 항목 스타일 */
+.star-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.star-item:last-child {
+    margin-bottom: 0;
+}
+
+.badge {
+    background-color: #3182ce;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 3px;
+}
+
+.star-item h3 {
+    color: #2b6cb0;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.star-item p {
+    color: #4a5568;
+    margin-bottom: 5px;
+}
+
+/* 코드 글씨 스타일 */
+code {
+    background-color: #edf2f7;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #e53e3e;
+    font-family: monospace;
+    font-size: 1.05em;
+}
+
+/* 푸터 (깃허브 링크) */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e2e8f0;
+}
+
+footer a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #2b6cb0;
+}
